@@ -43,7 +43,7 @@ Unix: Root User by default create
 SHELL Program are nothing but collection of Unix commands.
 /home directory every user has their one directory
 
-## Unix Note Day 2:
+## Unix Note: Day 2
 Under which SHELL you are working.
 #### command: echo $0
 change to SHELL
@@ -69,7 +69,7 @@ know server name: host name;
 create 0 byte file
  
 
-## Unix Note Day 3
+## Unix Note: Day 3
 Commands: 
 #### cat : command to create and view the file
 To create file
