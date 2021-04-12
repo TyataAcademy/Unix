@@ -210,8 +210,9 @@ We are going to set the permission of a sample directory at 777 and the unix com
 If you do this permission setting in WinSCP or secureFx its little bit harder. In secureFx there is not an option to set permission for sub folder. In WinSCP we have check box says 'Set group, owner and permission recursively' on property window where we have to check that box for setting permission for directory and its sub-directory. 
 
 Unix Command to set permission for Directory and Sub-directory
-$ chmod -R 777 <Directory_Name>
-e.g. chmod -R 777 My_Folder
+#### $ chmod -R 777 <Directory_Name>
+e.g. 
+#### chmod -R 777 My_Folder
 
 
 
