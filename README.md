@@ -204,6 +204,14 @@ Use this command:
 Find how many files in the current directory
 #### ls -l  | grep ^- |wc -l
  
+## Unix Note: Day 5
+Find how to set the permission of directory and sub directory at one shot.
+We are going to set the permission of a sample directory at 777 and the unix command will automatically set the permission its all sub directly to 777. 
+If you do this permission setting in WinSCP or secureFx its little bit harder. In secureFx there is not an option to set permission for sub folder. In WinSCP we have check box says 'Set group, owner and permission recursively' on property window where we have to check that box for setting permission for directory and its sub-directory. 
+
+Unix Command to set permission for Directory and Sub-directory
+$ chmod -R 777 <Directory_Name>
+e.g. chmod -R 777 My_Folder
 
 
 
